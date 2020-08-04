@@ -4,8 +4,21 @@
   "description": "\"this is a test directory\"",
   "main": " index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
   },
   "author": "Abdul Manan",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdulmanan11/test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abdulmanan11/test/issues"
+  },
+  "homepage": "https://github.com/abdulmanan11/test#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
